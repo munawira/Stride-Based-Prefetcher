@@ -1,0 +1,29 @@
+Authors:
+	 Munawira Kotyad
+
+ECE786 : Stride Based Prefetcher Implementation.
+
+Files provided:
+
+Source files:
+sim_cache.cc
+prefetcher.h
+prefetcher.cc
+
+Benchmarks:	
+2D convolution_formatted.txt
+histogram_formatted.txt
+matrix_mul_universal_thread_id.txt
+blacksholes_formatted_new.txt
+self_generated_trace.txt
+
+Makefile
+
+Steps to Run the simulator:
+1) make clean; make
+2) ./sim_cache <prefetch width> <trace>
+3) prefetch width of 0 is equivalent to no prefetching
+
+
+
+
